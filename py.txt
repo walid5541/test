@@ -1,0 +1,85 @@
+datetime
+now=datetime.datetime.now()
+print(now.day).dat.mounth...........
+datetime.date.today()
+
+yesterday=datetime.datetime(2018,03...............)
+                          .date
+                          .time
+after=now+datetime.timedelta(days=2)add days to now
+
+______________________________________________________
+os.getcwd()
+os.path.exist("path")
+os.path.getfullpathname()
+os.chdir("path")change directory
+>>change dir
+os.path.getsize(path)
+os.path.split(path)
+os.path.splitext('path')
+os.mkdir("foldername")   make 1 in task
+os.makedirs("foldername\\foldername\\...etc")  make multi in 1 task
+os.listdir()
+>>files in dir
+os.removedirs("path")
+>> remove all the path
+os.rmdir(path)
+>>remove just last folder
+os.rename("fol2","folder2")
+os.stat("filename").st_mtim
+for i,n,g in os.walk(path)
+ print(i)
+print(n)
+print(g)
+os.environ.get("USERPROFILE",appdata,temp...)
+os.file.join(os.environ.get("appdata"),"text.txt")
+print(dir(modul))
+------------------------------------
+
+>virtualenv env --no-site-packages
+cd script 
+dir
+activate
+
+lable:l
+w=widgets li ndiro fiha label
+<<l=qtwidgets.qlabel(w)
+l.settext("....
+l.move(0,....
+l.setpixmap(qtgui.qpixmap(picture.png))
+
+
+-------------
+messagebox:  m
+<<m=Qtgui.qmessagebox()>>
+m.seticon(QTgui.qmessagebox.warning)
+m.setwindowtitle("  title   ")
+m.setText("....")
+m.setstandardbutton(qtgui.qmessagebox.ok)
+m.exec_()
+------------------------------
+Console:
+python3
+pyinstaller --onefile --name=programName --icon=iconPath someFile.py
+
+
+GUI: 
+pyinstaller --onefile --windowed --hidden-import=someModule --name=programName --icon=iconPath someFile.py
+
+s.send(str.encode(str_msg))
+--------------
+vboxlayout: vb
+hboxlayout:hb
+<<vb=qtwidgets.qvboxlayout()
+vb.addwidget(b) ... b l ...
+vb.addstretch()
+-----------
+button :b
+<<b=widgets.Qpushbutton(w)
+----------
+widgets: w
+<<w=qtwidgets.qwidgets()
+w.setgeometry(0,0,0,0)
+w.setwindowtitle()
+w.show()
+w.setlayout(vb)
